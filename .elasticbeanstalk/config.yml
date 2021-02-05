@@ -1,0 +1,8 @@
+branch-defaults:
+  master:
+    environment: $CIRCLE_BRANCH-devops-assessment-frontend
+global:
+  application_name: DevOps Assessment Frontend
+  default_platform: 64bit Amazon Linux 2 v5.2.5 running Node.js 12
+  default_region: ap-southeast-1
+  sc: git
