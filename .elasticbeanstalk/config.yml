@@ -1,6 +1,6 @@
 branch-defaults:
   master:
-    environment: $CIRCLE_BRANCH-devops-assessment-frontend
+    environment: $CIRCLE_BRANCH-devops-assessment-react
 global:
   application_name: DevOps Assessment Frontend
   default_platform: 64bit Amazon Linux 2 v5.2.5 running Node.js 12

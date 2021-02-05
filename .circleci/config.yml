@@ -23,7 +23,7 @@ jobs:
                 name: Deploying
                 command: |
                   eb --version
-                  eb deploy $CIRCLE_BRANCH-devops-assessment-frontend --message $CIRCLE_BUILD_NUM
+                  eb deploy $CIRCLE_BRANCH-devops-assessment-react --message $CIRCLE_BUILD_NUM
 
 workflows:
   elastic-beanstalk-workflow-react:
